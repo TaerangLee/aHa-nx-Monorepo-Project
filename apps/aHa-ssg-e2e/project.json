@@ -1,0 +1,9 @@
+{
+  "name": "aHa-ssg-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/aHa-ssg-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["aHa-ssg"],
+  "// targets": "to see all targets run: nx show project aHa-ssg-e2e --web",
+  "targets": {}
+}
