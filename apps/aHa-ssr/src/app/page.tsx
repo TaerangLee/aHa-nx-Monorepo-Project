@@ -6,5 +6,5 @@ export default function Index() {
    *
    * Note: The corresponding styles are in the ./index.css file.
    */
-  return <div>Hello World3133</div>;
+  return <div>Hello World 1</div>;
 }
