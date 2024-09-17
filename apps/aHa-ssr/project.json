@@ -9,7 +9,7 @@
       "executor": "@nrwl/next:build",
       "options": {
         "outputPath": "dist/apps/aHa-ssr",
-        "outputs": ["aHa-ssr/.next"]
+        "outputs": ["{outputPath}/.next"]
       },
       "configurations": {
         "production": {
