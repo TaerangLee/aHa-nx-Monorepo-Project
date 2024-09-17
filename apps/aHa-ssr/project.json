@@ -8,7 +8,8 @@
     "build": {
       "executor": "@nrwl/next:build",
       "options": {
-        "outputPath": "dist/apps/aHa-ssr"
+        "outputPath": "dist/apps/aHa-ssr",
+        "outputs": ["dist/dist/aHa-ssr"]
       },
       "configurations": {
         "production": {

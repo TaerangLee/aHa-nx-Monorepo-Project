@@ -52,6 +52,17 @@
   "targetDefaults": {
     "e2e-ci--**/*": {
       "dependsOn": ["^build"]
+    },
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [
+        "{aHa-ssr}/dist",
+        "{aHa-ssr}/build",
+        "{aHa-ssr}/public/build",
+        "{aHa-ssg}/dist",
+        "{aHa-ssg}/build",
+        "{aHa-ssg}/public/build"
+      ]
     }
   },
   "generators": {
